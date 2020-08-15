@@ -1,0 +1,13 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  /* padding: .2rem; */
+
+}
+
+.signup-component-container {
+  background-image: url('../Assets/bg-intro-desktop.png');
+  background-color: #F07574;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
