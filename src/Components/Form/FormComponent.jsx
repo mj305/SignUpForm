@@ -6,7 +6,8 @@ const FormComponent = () => {
 
   return (
     <>
-    
+      <div className="signup-container">
+
         <div className="signup-wrapper" > 
           <h1 className="signup-header">Learn to code by watching others</h1>
           <p className="signup-paragraph" >See how experienced developers solve 
@@ -43,7 +44,8 @@ const FormComponent = () => {
           </div>
 
         </div>
-
+        
+      </div>
     </>
   )
 }

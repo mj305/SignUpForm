@@ -1,92 +1,105 @@
-* {
-  font-family: 'Nunito', sans-serif;
-  color: white;
-  background-color: #F07577;
-  padding: .2rem;
-}
 
-.signup-wrapper {
-  margin-top: .5rem;
-}
+  * {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    background-color: #F07577;
+    padding: .2rem;
+  }
 
-.signup-header {
-  text-align: center;
-  font-size: 1.9rem;
-  font-weight: 800;
-}
+  .signup-container {
+    /* border: dotted white .2rem; */
+    display: flex;
+    height: 80vh;
+    margin: 4rem 1rem;
+    padding: 1rem;
+  }
+  
+  .signup-wrapper {
+    /* border: dotted white .2rem; */
+    margin-top: 3rem;
+    width: 60rem;
+  }
+  
+  .signup-header {
+    font-size: 5.5rem;
+    font-weight: 800;
+  }
+  
+  .signup-paragraph {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.6;
+  }
+  
+  .box {
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  }
+  
+  .signup-pricing-background {
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #5C55A5;
+    height: 2.8rem;
+    border-radius: .5rem;
+    padding-top: 1rem;
+    margin-top: 15%;
 
-.signup-paragraph {
-  font-size: 1.2rem;
-  font-weight: 700;
-  text-align: center;
-  line-height: 1.6;
-}
-
-.box {
-  box-shadow:
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 100px 80px rgba(0, 0, 0, 0.12)
-}
-
-.signup-pricing-background {
-  font-size: 1.2rem;
-  text-align: center;
-  background-color: #5C55A5;
-  height: 4rem;
-  border-radius: .5rem;
-  padding-top: 1rem;
-}
-
-.form-wrapper{
-  background-color: white;
-  border-radius: .5rem;
-  padding: 1rem;
-  margin-bottom: 3rem;
-}
-
-.form-group {
-  background-color: white;
-  border-radius: .4rem;
-  margin: .5rem;
-  padding: .5rem;
-  width: 11rem;
-  height: 1.7rem;
-  border: solid .01rem #979797;
-}
-
-.form-button-wrapper {
-  background-color: white;
-}
-
-.form-button {
-  font-size: 1rem;
-  color: white;
-  font-weight: 800;
-  background-color: #65CD8B;
-  border: solid #65CD8B;
-  margin-left: .8rem;
-  height: 3rem;
-  width: 11rem;
-  border-radius: .4rem;
-  outline: none;
-  cursor: pointer;
-  box-shadow: 0 8px 6px -6px #065446;
-}
-
-.form-parragraph2 {
-  background-color: white;
-  color: #979797;
-  font-size: .7rem;
-  text-align: center;
-}
-
-.parragraph2-link {
-  color: #F07577;;
-  font-weight: 800;
-}
-
-
+    width: 73.5%;
+    margin-left: 7.7rem;
+  }
+  
+  .form-wrapper{
+    background-color: white;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    width: 70%;
+    margin-left: 8rem;
+  }
+  
+  .form-group {
+    background-color: white;
+    border-radius: .4rem;
+    margin: .5rem;
+    padding: .5rem;
+    width: 92%;
+    height: 1.7rem;
+    border: solid .01rem #979797;
+  }
+  
+  .form-button-wrapper {
+    background-color: white;
+  }
+  
+  .form-button {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 800;
+    background-color: #65CD8B;
+    border: solid #65CD8B;
+    height: 3rem;
+    margin-left: .5rem;
+    width: 95%;
+    border-radius: .4rem;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 8px 6px -6px #065446;
+  }
+  
+  .form-parragraph2 {
+    background-color: white;
+    color: #979797;
+    font-size: .7rem;
+    text-align: center;
+  }
+  
+  .parragraph2-link {
+    color: #F07577;;
+    font-weight: 800;
+  }  
