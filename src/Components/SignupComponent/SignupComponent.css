@@ -3,12 +3,12 @@
 
 }
 
-.signup-component-container {
-  border: white dotted .3rem;
+.signup-component-container {/* 
+  border: white dotted .3rem; */
   background-image: url('../Assets/bg-intro-desktop.png');
   background-color: #F07574;
-  height: 99vh;
-  width: 99vw;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: row;
 }
@@ -17,10 +17,31 @@
 
 
 /* Media Queries */
+@media screen and (max-width: 1618px) {
+  .form-component-wrapper {
+    height: 75%
+  }
+}
+
+
+@media screen and (max-width: 1150px) {
+  .signup-component-container {
+    height: 120vh;
+  }
+}
+
+
+
 @media screen and (max-width: 1024px) {
   .signup-component-container {
     flex-direction: column;
     height: 131vh;
+  }
+}
+
+@media screen and (max-width: 988px) {
+  .signup-component-container {
+    height: 317vh;
   }
 }
 
@@ -32,9 +53,26 @@
   }
 }
 
+
+@media screen and (max-width: 757px) {
+  .signup-component-container {
+    height: 208vh;
+  }
+}
+
+
+@media screen and (max-width: 568px) {
+  .signup-component-container {
+    height: 275vh;
+}
+}
+
+
+
 @media screen and (max-width: 450px) {
   .signup-component-container {
     height: 221vh;
+    width: 107vw;
   }
 }
 
@@ -44,6 +82,24 @@
     width: 105%;
   }
 }
+
+
+@media screen and (max-width: 360px) {
+  .signup-component-container {
+    width: 95%;
+  }
+}
+
+
+@media screen and (max-width: 280px) {
+  .signup-component-container {
+    width: 111%;
+  }
+}
+
+
+
+
 
 
 
