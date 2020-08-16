@@ -116,3 +116,37 @@
       font-size: 1.3rem;
     }
   }
+
+
+  @media screen and (max-width: 450px) {
+    .form-pricing-paragraph1 {
+      font-size: 1.4rem;
+    }
+
+    .form-component-wrapper {
+      width: 92%;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 13px;
+    }
+
+    .form-component-group {
+      font-size: 1rem;
+      padding: .2rem;
+      height: 2.5rem;
+    }
+
+    .form-component-button1-wrapper {
+      margin-left: 0.5rem;
+    }
+
+    .form-component-button {
+      font-size: 1.6rem;  
+      width: 98%;
+      align-self: center;
+    }
+
+    .form-component-parragraph2 {
+      font-size: 1rem;
+    }
+  }

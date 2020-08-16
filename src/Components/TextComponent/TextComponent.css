@@ -66,8 +66,20 @@
     .text-paragraph1 {
       font-size: 1.7rem;
     } 
+  }
 
-    .form-pricing-paragraph1 {
-      font-size: 2.4rem;
+
+  @media screen and (max-width: 450px) {
+    .text-container {
+      width: 99%;
+      margin-left: -2rem;
+    }
+
+    .text-header {
+      font-size: 2.6rem;
+    }
+
+    .text-paragraph1 {
+      font-size: 1.2rem;
     }
   }
