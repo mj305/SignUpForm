@@ -60,6 +60,17 @@
     cursor: pointer;
     box-shadow: 0 8px 6px -6px #065446;
   }
+
+  .form-component-button:hover {
+    background-color: #6decb9;
+    border: #6decb9;
+  }
+
+  .form-component-button:active {
+  background-color: #4dd599;
+  box-shadow: 0 5px #dddddd;
+  transform: translateY(4px);
+}
   
   .form-component-parragraph2 {
     background-color: white;
