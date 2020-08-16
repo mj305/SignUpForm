@@ -39,5 +39,13 @@
 }
 
 
+@media screen and (max-width: 414px) {
+  .signup-component-container {
+    width: 105%;
+  }
+}
+
+
+
 
 
