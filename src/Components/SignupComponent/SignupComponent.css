@@ -5,9 +5,68 @@
 }
 
 .signup-component-container {
+  border: white dotted .3rem;
   background-image: url('../Assets/bg-intro-desktop.png');
   background-color: #F07574;
-  height: 100vh;
-  width: 100vw;
+  height: 99vh;
+  width: 99vw;
   display: flex;
+  flex-direction: row;
 }
+
+/* 
+@media screen and (max-width: 1024px) {
+.signup-component-container { 
+  flex-direction: column;
+  height: 150vh;
+  }
+}
+
+
+
+
+@media screen and (max-width: 832px) {
+  .signup-component-container {
+  flex-direction: column;
+  background-image: url('../Assets/bg-intro-mobile.png');
+  height: 150vh;
+  }
+}
+
+
+@media screen and (max-width: 667px) {
+  .signup-component-container {
+  flex-direction: column;
+  background-image: url('../Assets/bg-intro-mobile.png');
+  height: 180vh;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .signup-component-container { 
+    height: 250vh;
+    }
+  }
+
+
+
+@media screen and (max-width: 414px){
+.signup-component-container {
+   height: 184vh;
+ }
+}
+
+
+@media screen and (max-width: 411px) {
+  .signup-component-container {
+    height: 190vh;
+  }
+}
+
+
+@media screen and (max-width: 360px) {
+  .signup-component-container {
+  height: 250vh;
+  }
+} */

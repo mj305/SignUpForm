@@ -10,7 +10,7 @@ const FormComponent = () => {
         
           <div className="form-pricing-container">
             <p className="form-pricing-paragraph1">
-              <strong className="form-pricing-paragraph1" >Try it free 7 days </strong> 
+              <strong className="form-pricing-paragraph1" >Try it free 7 days</strong>
               then $20/mo. thereafter
             </p>
           </div>
@@ -27,7 +27,7 @@ const FormComponent = () => {
                   <div className="form-component-parragraph2">
                       <p className="form-component-parragraph2" >
                             By clicking the button you are agreeing to our 
-                          <a className="form-component-parragraph2 form-component-link1" target="blank">Terms and Services</a>
+                          <a className="form-component-parragraph2 form-component-link1" target="blank"> Terms and Services</a>
                       </p>
               </div>
           </div>
