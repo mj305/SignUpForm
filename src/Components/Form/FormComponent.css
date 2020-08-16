@@ -74,6 +74,38 @@
     font-weight: 800;
   }  
 
+
+  /* Media Queries */
+  @media screen and (max-width: 1024px) {
+    .form-component-container {
+      width: 94%;
+    }
+
+    .form-pricing-paragraph1 {
+      font-size: 3.5rem;
+      width: 84%;
+    }
+
+    .form-component-wrapper {
+      width: 76%;
+      height: 52%;
+    }
+
+    .form-component-group {
+      font-size: 1.7rem;
+      padding: 1rem;
+    }
+
+    .form-component-button {
+      font-size: 3rem;
+      height: 1%;
+    }
+
+    .form-component-parragraph2 {
+      font-size: 1.3rem;
+    }
+  }
+
  /*  @media screen and (max-width: 1047px) {
     .form-component-container {
     width: 71%;

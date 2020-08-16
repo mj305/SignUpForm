@@ -14,6 +14,23 @@
   flex-direction: row;
 }
 
+
+
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+  .signup-component-container {
+    flex-direction: column;
+    height: 131vh;
+  }
+}
+
+
+
+
+
+
+
 /* 
 @media screen and (max-width: 1024px) {
 .signup-component-container { 

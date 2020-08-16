@@ -36,6 +36,30 @@
     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12)
   } 
+
+
+  /* Media Queries */
+  @media screen and (max-width: 1024px) {
+    .text-container {
+      text-align: center;
+      width: 88%;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+  }
+
+    .text-header {
+      font-size: 5rem;
+    }
+
+    .text-paragraph1 {
+      font-size: 2rem;
+    }
+  }
+  
+
+
+
+
 /* 
   @media screen and (max-width: 1047px) {
     .text-header {
@@ -85,7 +109,7 @@
     }
   } */
 
-
+/* 
   @media screen and (max-width: 480px){
   .text-container {
       padding: 1rem;
@@ -149,3 +173,4 @@
 }
 
 
+ */
