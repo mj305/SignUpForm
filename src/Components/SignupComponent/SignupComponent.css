@@ -10,7 +10,7 @@ a {
   border: white dotted .3rem; */
   background-image: url('../Assets/bg-intro-desktop.png');
   background-color: #F07574;
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
   display: flex;
   flex-direction: row;
