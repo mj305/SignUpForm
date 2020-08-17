@@ -41,7 +41,7 @@ const FormComponent = () => {
                   }})}  />
                   <span className="error-text">{errors.email && errors.email.message}</span>
 
-                <input className={`form-component-group ${errors.password && "error error-icon"}`} placeholder="Password*" name="password" type="text" ref={register({ required: true })} />
+                <input className={`form-component-group ${errors.password && "error error-icon"}`} placeholder="Password*" name="password" type="password" ref={register({ required: true })} />
                 <span className="error-text">{errors.password && "Password required"}</span>
 
                     <div className="form-component-button1-wrapper">
