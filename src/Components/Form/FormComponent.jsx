@@ -8,7 +8,7 @@ const FormComponent = () => {
   const { handleSubmit, register, errors } = useForm();
   const onSubmit = values => console.log(values);
 
-
+  
 
 
   return (
@@ -25,21 +25,24 @@ const FormComponent = () => {
 
             <div className="form-component-wrapper">
               
-                <input className="form-component-group" placeholder="First Name*" type="text" name="firstName" ref={register({ required: true })}  />
-                {errors.firstName && "First name is required"}
+                <input className={`form-component-group ${errors.firstName && "error error-icon"}`} placeholder="First Name*" type="text" name="firstName" ref={register({ required: true })}  />
+                <span className="error-text">{errors.firstName && "First name is required"}</span>
+                
 
-                <input className="form-component-group" placeholder="Last Name*" type="text" name="lastName" ref={register({ required: true })} />
-                {errors.lastName && "Last name is required"}
+                <input className={`form-component-group ${errors.lastName && "error error-icon"}`} placeholder="Last Name*" type="text" name="lastName" ref={register({ required: true })} />
+                <span className="error-text">{errors.lastName && "Last name is required"}</span>
 
-                <input className="form-component-group" placeholder="Email*" name="email" type="text" ref={register({
+                <input className={`form-component-group ${errors.email && "error error-icon error-email"}`} placeholder="Email*" name="email" type="text" ref={register({
                   required: "Required",
                   pattern: {
                   value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                  message: "invalid email address"
+                  message: "invalid email address",
+                  emailFormat: "email@email.com",
                   }})}  />
-                  {errors.email && errors.email.message}
+                  <span className="error-text">{errors.email && errors.email.message}</span>
 
-                <input className="form-component-group" placeholder="Password*" name="password" type="text" />
+                <input className={`form-component-group ${errors.password && "error error-icon"}`} placeholder="Password*" name="password" type="text" ref={register({ required: true })} />
+                <span className="error-text">{errors.password && "Password required"}</span>
 
                     <div className="form-component-button1-wrapper">
                       <button type="submit" className="form-component-button"> Claim Your Free Trial </button>

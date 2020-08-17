@@ -1,5 +1,4 @@
   .text-container {
-    /* border: dotted white .2rem; */
     color: white;
     margin: auto;
     margin-left: 2%;
@@ -9,7 +8,6 @@
   }
   
   .text-wrapper {
-    /* border: dotted white .2rem; */
     margin: .5rem;
     padding: .5rem;
   }
@@ -111,6 +109,10 @@
       margin-left: -2rem;
     }
 
+    .text-wrapper {
+      margin-top: -9rem;
+    }
+
     .text-header {
       font-size: 2.6rem;
     }
@@ -121,16 +123,32 @@
   }
 
 
+  @media screen and (max-width: 375px) {
+    .text-wrapper {
+      width: 85%;
+    }
+
+    .text-header {
+      font-size: 2.4rem;
+    }
+
+    .text-paragraph1 {
+      font-size: 1.1rem;
+    }
+  }
+
+
   @media screen and (max-width: 360px) {
     .text-container {
       margin-top: 0rem;
+      margin-bottom: 6rem;
     }
     .text-header {
-      font-size: 2.2rem;
+      font-size: 2rem;
   }
 
   .text-paragraph1 {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 

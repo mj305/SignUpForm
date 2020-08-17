@@ -6,14 +6,18 @@ a {
   text-decoration: none;
 }
 
-.signup-component-container {/* 
-  border: white dotted .3rem; */
+body {
   background-image: url('../Assets/bg-intro-desktop.png');
   background-color: #F07574;
-  height: 120vh;
+  height: 100vh;
   width: 100vw;
+  margin-top: 5rem;
+}
+
+.signup-component-container {
   display: flex;
   flex-direction: row;
+  margin-top: 5rem;
 }
 
 
@@ -90,6 +94,8 @@ a {
 @media screen and (max-width: 360px) {
   .signup-component-container {
     width: 95%;
+    margin-top: -1rem;
+    margin-left: 1.5rem;
   }
 }
 

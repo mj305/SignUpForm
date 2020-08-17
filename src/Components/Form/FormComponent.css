@@ -41,6 +41,27 @@
     border: solid .01rem #979797;
     outline: none;
   }
+
+  .error {
+    border: red solid .1rem;
+  }
+
+  .error-text {
+    color: red;
+    float: right;
+  }
+
+  .error-icon {
+    background-image: url('./icon-error.svg');
+    background-position: right; 
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+
+  }
+
+  .error-email {
+    
+  }
   
   .form-component-button1-wrapper{
     background-color: white;
@@ -102,6 +123,7 @@
   @media screen and (max-width: 1024px) {
     .form-component-container {
       width: 94%;
+      margin-right: -2rem;
     }
 
     .form-pricing-paragraph1 {
@@ -201,8 +223,10 @@
 
 
   @media screen and (max-width: 450px) {
+    .form-component-container {
+      margin-right: 1rem;
+    }
     .form-pricing-paragraph1 {
-      margin-left: .1rem;
       font-size: 1.6rem;
       width: 88%;
       margin-left: .6rem;
@@ -215,6 +239,7 @@
       padding-right: 0px;
       padding-top: 13px;
       margin-left: .6rem;
+      
     }
 
     .form-component-group {
@@ -239,30 +264,49 @@
   }
 
   @media screen and (max-width: 414px) {
+    .form-component-container {
+      margin: 0;
+      width: 74%;
+    }
     .form-component-wrapper {
       height: 43%;
       padding-top: 1rem;
       padding: .5rem;
     }
+
+    .form-pricing-paragraph1 {
+      font-size: 1.4rem;
+      width: 90%;
+    }
   }
   
 
   @media screen and (max-width: 411px) {
+    .form-component-container {
+      width: 103%;
+    }
+    .form-pricing-paragraph1 {
+      width: 79%;
+    }
     .form-component-wrapper {
       height: 43%;
-      width: 87%;
-      margin-left: .5rem;
+      width: 83%;
     }
   }
 
   @media screen and (max-width: 375px) {
+    .form-component-container {
+      width: 107%;
+    }
     .form-component-wrapper {
       height: 48%;
+      width: 79%;
     }
 
     .form-pricing-paragraph1 {
-      width: 83%;
-      margin-left: .5rem;
+      font-size: 1.4rem;
+      width: 76%;
+      margin-top: -2rem;
     }
 
     .form-component-parragraph2 {
@@ -274,6 +318,7 @@
   @media screen and (max-width: 360px) {
     .form-pricing-paragraph1 {
       font-size: 1.2rem;
+      width: 74%;
     }
 
     .form-component-container {
@@ -285,18 +330,23 @@
     }
 
     .form-component-button {
-      font-size: 1.5rem;
+      font-size: 1.4rem;
     }
   }
 
 
   @media screen and (max-width: 320px) {
+    .form-component-container {
+      margin-left: -.5rem;
+      width: 113%;
+    }
     .form-component-wrapper {
       height: 48%;
     }
 
     .form-pricing-paragraph1 {
       font-size: 1.1rem;
+      width: 75%;
     }
 
     .form-component-button {
@@ -310,9 +360,13 @@
 
 
   @media screen and (max-width: 280px) {
+    .form-component-container {
+      width: 96%;
+    }
     .form-pricing-paragraph1 {
       font-size: 1rem;
       margin-left: .6rem;
+      width: 85%;
     }
 
     .form-component-wrapper {
